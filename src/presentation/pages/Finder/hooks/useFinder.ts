@@ -30,5 +30,14 @@ export const useFinder = () => {
     }
   };
 
-  return { repos, isLoading, setUsername, fetchData, username, names, error };
+  return {
+    repos,
+    isLoading,
+    setUsername,
+    fetchData,
+    username,
+    names,
+    error,
+    setRepos,
+  };
 };
